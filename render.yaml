@@ -1,7 +1,7 @@
 services:
   - type: web
     # Cambiar por un nombre único antes de crear el Blueprint.
-    name: webdev-laravel-starter
+    name: webdev-student-demo-leinermendez
     runtime: docker
     plan: free
     region: virginia
@@ -12,8 +12,8 @@ services:
     autoDeployTrigger: checksPass
 
     envVars:
-      - key: APP_NAME
-        value: Desarrollo Web con Laravel
+      - key: Webdev
+        value: Mi Proyecto Web
       - key: APP_ENV
         value: production
       - key: APP_DEBUG
